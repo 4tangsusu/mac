@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    margin: 0;
+}
+header > .box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#eeeeee, #c2c2c2);
+    box-shadow: rgba(0, 0, 0, 30%) 0 5px 2em;
+    border-radius: 0 0 1em 1em;
+    padding: 15px;
+    text-align: center;
+}
+header > .box > * {
+    vertical-align: middle;
+}
+#title {
+    font-size: 1.3em;
+    padding-right: 30px;
+    border-right: solid 1.5px #6e6e6e;
+    color: #535353;
+    display: inline-block;
+}
+#btn {
+    margin-left: 30px;
+    font-size: 1em;
+    color: white;
+    background: linear-gradient(#74acff, #036ffc);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 30%) 0 5px 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#btn:hover {
+    box-shadow: rgba(0, 0, 0, 60%) 0 5px 10px;
+}
+#btn:active {
+    transform: translateY(5px);
+    filter: brightness(0.8);
+}
+article {
+    margin-top: -150px;
+}
+.para {
+    margin-top: 500px;
+}
+.sub {
+    font-size: 3em;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.des {
+    font-size: 1.25em;
+    color: #696969;
+}
+#first {
+    margin-left: 20px;
+}
+#first > .sub {
+    background: linear-gradient(to right, #ff3e30, #ffb732);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#first > .container {
+    float: right;
+    margin-right: 50px;
+    text-align: right;
+}
+.container > img {
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 40%) 0 10px 20px;
+    height: 300px;
+}
+.attr {
+    font-size: 0.9em;
+    color: #777777;
+    margin-top: 10px;
+}
+#second {
+    text-align: right;
+    margin-right: 20px;
+}
+#second > .sub {
+    background: linear-gradient(to right, #30e0ff, #3269ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#second > .container {
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}
+#third {
+    margin-left: 20px;
+}
+#third > .sub {
+    background: linear-gradient(to right, #a8ff36, #2bffa7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#third > .container {
+    float: right;
+    margin-right: 50px;
+    text-align: right;
+}
+footer > .box {
+    margin-top: 400px;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #333333;
+    box-shadow: rgba(0, 0, 0, 50%) 0 -5px 1.3em;
+}
+#recommend {
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+#expl {
+    font-size: 0.9em;
+    color: #b1b1b1;
+}
