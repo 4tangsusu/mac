@@ -1,2 +1,2 @@
 # mac
-I love Mac
+I love MacBook
